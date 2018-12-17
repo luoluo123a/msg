@@ -19,7 +19,7 @@ public class MsgController {
     public String queryAll(HttpSession session) {
         List<Msg> list = msgService.queryAll();
 
-
+        System.out.println("aaaaaaaaaaaaaa");
         session.setAttribute("msg", list);
 
 
